@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CongCongPod
 
 [![CI Status](https://img.shields.io/travis/AlliumLiu/CongCongPod.svg?style=flat)](https://travis-ci.org/AlliumLiu/CongCongPod)
@@ -27,3 +28,6 @@ AlliumLiu, cong.liu01@liulishuo.com
 ## License
 
 CongCongPod is available under the MIT license. See the LICENSE file for more info.
+=======
+# CongCongPod
+>>>>>>> bb8ea951d4b2b7fb5c52f1d6e5b96dd92a43f611
