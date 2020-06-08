@@ -1,0 +1,16 @@
+PODS:
+  - CongCongPod (0.1.0)
+
+DEPENDENCIES:
+  - CongCongPod (from `../`)
+
+EXTERNAL SOURCES:
+  CongCongPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CongCongPod: 8293311ec6369fead5923f448204333c488376a8
+
+PODFILE CHECKSUM: ce3459eb5e5946abce897f79eaed638d67ce72c1
+
+COCOAPODS: 1.9.3

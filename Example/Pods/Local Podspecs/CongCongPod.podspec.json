@@ -1,0 +1,22 @@
+{
+  "name": "CongCongPod",
+  "version": "0.1.0",
+  "summary": "A short description of CongCongPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/AlliumLiu/CongCongPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "AlliumLiu": "cong.liu01@liulishuo.com"
+  },
+  "source": {
+    "git": "https://github.com/AlliumLiu/CongCongPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CongCongPod/Classes/**/*"
+}

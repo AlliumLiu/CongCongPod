@@ -1,0 +1,6 @@
+framework module CongCongPod {
+  umbrella header "CongCongPod-umbrella.h"
+
+  export *
+  module * { export * }
+}
