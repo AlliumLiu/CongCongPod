@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CongCongPod_Example' do
+  pod 'CongCongPod', :path => '../'
+
+  target 'CongCongPod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
