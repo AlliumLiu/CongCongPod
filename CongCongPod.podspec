@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CongCongPod'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'CongCongPod'
 
 # This description is used to generate tags and improve search results.
@@ -31,8 +31,6 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
-  s.source_files = 'CongCongPod/Classes/**/*'
   
   # s.resource_bundles = {
   #   'CongCongPod' => ['CongCongPod/Assets/*.png']
@@ -41,5 +39,19 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
   s.swift_version = '5.0'
+
+  s.subspec 'Tool' do |sp|
+    sp.source_files = 'CongCongPod/Classes/Tool/*'
+  end
+
+  s.subspec 'Color' do |sp|
+    sp.source_files = 'CongCongPod/Classes/Color/*'
+  end
+
+  s.subspec 'Font' do |sp|
+    sp.source_files = 'CongCongPod/Classes/Font/*'
+  end
+
 end

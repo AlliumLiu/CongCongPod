@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'CongCongPod_Example' do
-  pod 'CongCongPod', :path => '../'
+  pod 'CongCongPod', :path => '../', :subspecs => ['Tool', 'Font']
 
   target 'CongCongPod_Tests' do
     inherit! :search_paths

@@ -1,8 +1,8 @@
 {
   "name": "CongCongPod",
-  "version": "0.1.0",
-  "summary": "A short description of CongCongPod.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.0.3",
+  "summary": "CongCongPod",
+  "description": "a test demo to verfiy pod\npod\npod",
   "homepage": "https://github.com/AlliumLiu/CongCongPod",
   "license": {
     "type": "MIT",
@@ -13,10 +13,25 @@
   },
   "source": {
     "git": "https://github.com/AlliumLiu/CongCongPod.git",
-    "tag": "0.1.0"
+    "tag": "0.0.3"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "CongCongPod/Classes/**/*"
+  "swift_versions": "5.0",
+  "subspecs": [
+    {
+      "name": "Tool",
+      "source_files": "CongCongPod/Classes/Tool/*"
+    },
+    {
+      "name": "Color",
+      "source_files": "CongCongPod/Classes/Color/*"
+    },
+    {
+      "name": "Font",
+      "source_files": "CongCongPod/Classes/Font/*"
+    }
+  ],
+  "swift_version": "5.0"
 }

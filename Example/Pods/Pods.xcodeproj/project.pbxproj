@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		113D0EC69C0832F06E8A82964261116E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		14FAA6F49AEE93AA062CFE162ECAEF7F /* CongCongPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB8593EEF68626A770B3FAD490379A0F /* CongCongPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		206C912364D04224C706FB3FA68B7224 /* Pods-CongCongPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6A533C9F5C9B116431E0CC4D0B8F2B /* Pods-CongCongPod_Tests-dummy.m */; };
-		512FE85C248E2BF6003B6168 /* CongCongTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512FE85B248E2BF6003B6168 /* CongCongTool.swift */; };
+		25C021F86F4646D20E4B329218BC31D5 /* CongCongPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6ECDC39D59E9FD62EF4C4E6A0762F9 /* CongCongPod-dummy.m */; };
+		260377B1A40B03CE32F00D72A1798E41 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34E1BE4B9D27FFC4076701F7172DAA5 /* Font.swift */; };
+		82B30E6CA5D33F241606894702D62515 /* CongCongTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2660B254851275AEF479067C49B4DD5E /* CongCongTool.swift */; };
 		83B214765B232BD3AEFCCD24BA941A1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		A5BEB7F294A295F0B413CD0BFE47CD2A /* Pods-CongCongPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95CC530789524705B3EEE941E9BC39BF /* Pods-CongCongPod_Example-dummy.m */; };
 		AC4CFAFB07FB76EED5C267C988B6883F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		B03722A8B5E2DF8FCFF92D135BAFA5DD /* CongCongPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5411728967DB2B871D39CFCF8BA7C43 /* CongCongPod-dummy.m */; };
+		C1F393F3BF1FEC80FCE7EB66BA47EC97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		C6FE9DF148D674A4551C8B3C28B24CEE /* Pods-CongCongPod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9D5AB74B2C8F973F37B46B4CA1013CB /* Pods-CongCongPod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D65499E0C26E674D48EC81B0FA72A4E8 /* Pods-CongCongPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75679814642088AD0BA99C690BB82031 /* Pods-CongCongPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D6F5EE5CE36204E31DCCE79B569A024F /* CongCongPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C014AB2AD2B80BC467C7890067E658B5 /* CongCongPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,37 +39,38 @@
 
 /* Begin PBXFileReference section */
 		08ED3B7FC7D7C502ECB9AEB2B255509A /* Pods-CongCongPod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CongCongPod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0CB3EA90863DC2C2A1FDEC2E28B77B4F /* CongCongPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CongCongPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0EF534952E0BD590081F290A2A7C3CF4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		14E3062A76064B46BBD9474468B9EC25 /* Pods-CongCongPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CongCongPod_Tests.modulemap"; sourceTree = "<group>"; };
 		16F963B861264FFC52485B2A28FD9AA2 /* Pods-CongCongPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CongCongPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		20CAC9BC8E3C7566675911BE9B570D82 /* Pods-CongCongPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CongCongPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		223C4CD0FA03BEDB6B1992B5C74F7CEE /* Pods-CongCongPod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CongCongPod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2F46723A3F56B34EF21BABDAA048E105 /* Pods_CongCongPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CongCongPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2660B254851275AEF479067C49B4DD5E /* CongCongTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CongCongTool.swift; path = CongCongPod/Classes/Tool/CongCongTool.swift; sourceTree = "<group>"; };
+		29E3B45CAAC7016CD1415B3A605FA35F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2F46723A3F56B34EF21BABDAA048E105 /* Pods_CongCongPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CongCongPod_Example.framework; path = "Pods-CongCongPod_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		50F351EE2AE51B53497AA7FC14E5309C /* CongCongPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CongCongPod.release.xcconfig; sourceTree = "<group>"; };
-		512FE85B248E2BF6003B6168 /* CongCongTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CongCongTool.swift; path = CongCongPod/Classes/CongCongTool.swift; sourceTree = "<group>"; };
 		5565536DE914DDCFE4EA7EE8A6B2F3C0 /* Pods-CongCongPod_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CongCongPod_Tests-Info.plist"; sourceTree = "<group>"; };
-		5ABC0F15940214B47C7152FEC706008E /* CongCongPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CongCongPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ABC0F15940214B47C7152FEC706008E /* CongCongPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CongCongPod.framework; path = CongCongPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C6A533C9F5C9B116431E0CC4D0B8F2B /* Pods-CongCongPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CongCongPod_Tests-dummy.m"; sourceTree = "<group>"; };
-		5CED9F57D78EA93B40D613DE312F721E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		677C3F7A26A4920E842DDF698715E73E /* CongCongPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CongCongPod.modulemap; sourceTree = "<group>"; };
+		6275E4B1320B500C84214C9B19A9EB9B /* CongCongPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CongCongPod.modulemap; sourceTree = "<group>"; };
+		6EB0F9A688848B70E09462F142526238 /* CongCongPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CongCongPod.release.xcconfig; sourceTree = "<group>"; };
+		72717CD1FEE5BFA43221E6F3421E9FA1 /* CongCongPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CongCongPod-Info.plist"; sourceTree = "<group>"; };
+		7402C84793D75039CBD4D674F9969547 /* CongCongPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CongCongPod.debug.xcconfig; sourceTree = "<group>"; };
 		75679814642088AD0BA99C690BB82031 /* Pods-CongCongPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CongCongPod_Tests-umbrella.h"; sourceTree = "<group>"; };
 		79C0ECFF2310DE01E28FB7DDDEF8C890 /* Pods-CongCongPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CongCongPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		829AED8308A8974F31499267DE85ED6D /* Pods_CongCongPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CongCongPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		85A65DBCFF967E73B92D48A6CE4D6164 /* CongCongPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CongCongPod-Info.plist"; sourceTree = "<group>"; };
+		829AED8308A8974F31499267DE85ED6D /* Pods_CongCongPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CongCongPod_Tests.framework; path = "Pods-CongCongPod_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FB4C47AFCF1D14EF968937ED48DFDDD /* CongCongPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CongCongPod-prefix.pch"; sourceTree = "<group>"; };
 		9084FAED85999E369271BF419BBF45E8 /* Pods-CongCongPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CongCongPod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		95CC530789524705B3EEE941E9BC39BF /* Pods-CongCongPod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CongCongPod_Example-dummy.m"; sourceTree = "<group>"; };
 		9C0053B10AAA62DEB2A87DE19F5C0368 /* Pods-CongCongPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CongCongPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9C9F43EE2D0100A7A0EAE356386DD496 /* CongCongPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CongCongPod-prefix.pch"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DA6A05FBAB6A9812D8FDA14350179C1 /* Pods-CongCongPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CongCongPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A6E7F5522902D63314F9CE07BE0655EF /* CongCongPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CongCongPod.debug.xcconfig; sourceTree = "<group>"; };
 		A9D5AB74B2C8F973F37B46B4CA1013CB /* Pods-CongCongPod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CongCongPod_Example-umbrella.h"; sourceTree = "<group>"; };
-		C014AB2AD2B80BC467C7890067E658B5 /* CongCongPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CongCongPod-umbrella.h"; sourceTree = "<group>"; };
-		CCFAC376B91EC984761332575B889799 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		CE3BB1440E240F31734BFCEF83B00EEA /* Pods-CongCongPod_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CongCongPod_Example-Info.plist"; sourceTree = "<group>"; };
+		DB8593EEF68626A770B3FAD490379A0F /* CongCongPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CongCongPod-umbrella.h"; sourceTree = "<group>"; };
 		DE56FACEB26838694FFD838F8B7375F0 /* Pods-CongCongPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CongCongPod_Example-frameworks.sh"; sourceTree = "<group>"; };
-		E5411728967DB2B871D39CFCF8BA7C43 /* CongCongPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CongCongPod-dummy.m"; sourceTree = "<group>"; };
-		EA5F0B9F9716880BF14EB379D74335BB /* CongCongPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CongCongPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E34E1BE4B9D27FFC4076701F7172DAA5 /* Font.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Font.swift; path = CongCongPod/Classes/Font/Font.swift; sourceTree = "<group>"; };
+		FA6ECDC39D59E9FD62EF4C4E6A0762F9 /* CongCongPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CongCongPod-dummy.m"; sourceTree = "<group>"; };
 		FC2EFF16900B2F146B9F48ACD8E1DC63 /* Pods-CongCongPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CongCongPod_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,30 +91,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A7D4E82D10398FD8407644B92AD5D93F /* Frameworks */ = {
+		C59EDD6CEB509B4B90B1D69D37289CE9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				113D0EC69C0832F06E8A82964261116E /* Foundation.framework in Frameworks */,
+				C1F393F3BF1FEC80FCE7EB66BA47EC97 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0EBAEC35CDCF5D1E86031EC30173DBFF /* Support Files */ = {
+		09F1431C91D8C08A0E9D26341EE38818 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				677C3F7A26A4920E842DDF698715E73E /* CongCongPod.modulemap */,
-				E5411728967DB2B871D39CFCF8BA7C43 /* CongCongPod-dummy.m */,
-				85A65DBCFF967E73B92D48A6CE4D6164 /* CongCongPod-Info.plist */,
-				9C9F43EE2D0100A7A0EAE356386DD496 /* CongCongPod-prefix.pch */,
-				C014AB2AD2B80BC467C7890067E658B5 /* CongCongPod-umbrella.h */,
-				A6E7F5522902D63314F9CE07BE0655EF /* CongCongPod.debug.xcconfig */,
-				50F351EE2AE51B53497AA7FC14E5309C /* CongCongPod.release.xcconfig */,
+				0CB3EA90863DC2C2A1FDEC2E28B77B4F /* CongCongPod.podspec */,
+				0EF534952E0BD590081F290A2A7C3CF4 /* LICENSE */,
+				29E3B45CAAC7016CD1415B3A605FA35F /* README.md */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CongCongPod";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		0BB5C70215C7370B6D006035C13B1656 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFC52A9DB63FC12C40081568E33513A9 /* CongCongPod */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		0FCA3D5C0AE1E4C01387996DD2353E87 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				2660B254851275AEF479067C49B4DD5E /* CongCongTool.swift */,
+			);
+			name = Tool;
 			sourceTree = "<group>";
 		};
 		113582AB2B4635CB528AAE3B79438E18 /* Products */ = {
@@ -141,12 +154,19 @@
 			path = "Target Support Files/Pods-CongCongPod_Tests";
 			sourceTree = "<group>";
 		};
-		2C73732884827E3D5C501F325D1932B9 /* Development Pods */ = {
+		5F88BFB2CF77E663E9124D11D922E53D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B5DB5EC9483F0153CD37306F14989AAE /* CongCongPod */,
+				6275E4B1320B500C84214C9B19A9EB9B /* CongCongPod.modulemap */,
+				FA6ECDC39D59E9FD62EF4C4E6A0762F9 /* CongCongPod-dummy.m */,
+				72717CD1FEE5BFA43221E6F3421E9FA1 /* CongCongPod-Info.plist */,
+				8FB4C47AFCF1D14EF968937ED48DFDDD /* CongCongPod-prefix.pch */,
+				DB8593EEF68626A770B3FAD490379A0F /* CongCongPod-umbrella.h */,
+				7402C84793D75039CBD4D674F9969547 /* CongCongPod.debug.xcconfig */,
+				6EB0F9A688848B70E09462F142526238 /* CongCongPod.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CongCongPod";
 			sourceTree = "<group>";
 		};
 		929AB8DACAB5DC18DE54B90441575951 /* Pods-CongCongPod_Example */ = {
@@ -166,17 +186,6 @@
 			path = "Target Support Files/Pods-CongCongPod_Example";
 			sourceTree = "<group>";
 		};
-		B5DB5EC9483F0153CD37306F14989AAE /* CongCongPod */ = {
-			isa = PBXGroup;
-			children = (
-				512FE85B248E2BF6003B6168 /* CongCongTool.swift */,
-				E0AE11A4A1B41B74E8B65C0216696096 /* Pod */,
-				0EBAEC35CDCF5D1E86031EC30173DBFF /* Support Files */,
-			);
-			name = CongCongPod;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,7 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				2C73732884827E3D5C501F325D1932B9 /* Development Pods */,
+				0BB5C70215C7370B6D006035C13B1656 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				113582AB2B4635CB528AAE3B79438E18 /* Products */,
 				F3270FBBCF49DF44F36DC6D8AF4D0C12 /* Targets Support Files */,
@@ -204,14 +213,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E0AE11A4A1B41B74E8B65C0216696096 /* Pod */ = {
+		EFC52A9DB63FC12C40081568E33513A9 /* CongCongPod */ = {
 			isa = PBXGroup;
 			children = (
-				EA5F0B9F9716880BF14EB379D74335BB /* CongCongPod.podspec */,
-				CCFAC376B91EC984761332575B889799 /* LICENSE */,
-				5CED9F57D78EA93B40D613DE312F721E /* README.md */,
+				F9DF44CE44C9AE9061FFEF958A4D0E03 /* Font */,
+				09F1431C91D8C08A0E9D26341EE38818 /* Pod */,
+				5F88BFB2CF77E663E9124D11D922E53D /* Support Files */,
+				0FCA3D5C0AE1E4C01387996DD2353E87 /* Tool */,
 			);
-			name = Pod;
+			name = CongCongPod;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		F3270FBBCF49DF44F36DC6D8AF4D0C12 /* Targets Support Files */ = {
@@ -223,14 +234,22 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		F9DF44CE44C9AE9061FFEF958A4D0E03 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				E34E1BE4B9D27FFC4076701F7172DAA5 /* Font.swift */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		635BB5551C64134A731A6C4318509436 /* Headers */ = {
+		609ED87F332A7BEF887B37971E595CE9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6F5EE5CE36204E31DCCE79B569A024F /* CongCongPod-umbrella.h in Headers */,
+				14FAA6F49AEE93AA062CFE162ECAEF7F /* CongCongPod-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,12 +274,12 @@
 /* Begin PBXNativeTarget section */
 		1B4ED6FBBDBDFB3D3F09A920B4ACE844 /* CongCongPod */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0BD62D534807DD50851002F686D01BFF /* Build configuration list for PBXNativeTarget "CongCongPod" */;
+			buildConfigurationList = 87303214A8C10ADA463BE9497792BB2F /* Build configuration list for PBXNativeTarget "CongCongPod" */;
 			buildPhases = (
-				635BB5551C64134A731A6C4318509436 /* Headers */,
-				29AC0515318246D49670B5C002F36732 /* Sources */,
-				A7D4E82D10398FD8407644B92AD5D93F /* Frameworks */,
-				16622611F3E16ADFB672EAE80C4E27F9 /* Resources */,
+				609ED87F332A7BEF887B37971E595CE9 /* Headers */,
+				EC7895AA307AD3A6CDF59015402B1768 /* Sources */,
+				C59EDD6CEB509B4B90B1D69D37289CE9 /* Frameworks */,
+				C117420E2B89BE0C24DAB3B9EC491B68 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -339,14 +358,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		16622611F3E16ADFB672EAE80C4E27F9 /* Resources */ = {
+		A7EF5B9C568236B892A37CABF327EF41 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A7EF5B9C568236B892A37CABF327EF41 /* Resources */ = {
+		C117420E2B89BE0C24DAB3B9EC491B68 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,15 +382,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		29AC0515318246D49670B5C002F36732 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B03722A8B5E2DF8FCFF92D135BAFA5DD /* CongCongPod-dummy.m in Sources */,
-				512FE85C248E2BF6003B6168 /* CongCongTool.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		30D877D4F4D8BB52C6D086907F2E69EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -385,6 +395,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				206C912364D04224C706FB3FA68B7224 /* Pods-CongCongPod_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7895AA307AD3A6CDF59015402B1768 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25C021F86F4646D20E4B329218BC31D5 /* CongCongPod-dummy.m in Sources */,
+				82B30E6CA5D33F241606894702D62515 /* CongCongTool.swift in Sources */,
+				260377B1A40B03CE32F00D72A1798E41 /* Font.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,9 +426,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		34855221AEBB1B28110E6649B9461928 /* Debug */ = {
+		023517C65663BDDF43F9E1F7C592D07C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A6E7F5522902D63314F9CE07BE0655EF /* CongCongPod.debug.xcconfig */;
+			baseConfigurationReference = 6EB0F9A688848B70E09462F142526238 /* CongCongPod.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -430,7 +450,39 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		16A377726473446A4D1413F76E01EB38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7402C84793D75039CBD4D674F9969547 /* CongCongPod.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CongCongPod/CongCongPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CongCongPod/CongCongPod-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CongCongPod/CongCongPod.modulemap";
+				PRODUCT_MODULE_NAME = CongCongPod;
+				PRODUCT_NAME = CongCongPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -505,38 +557,6 @@
 			};
 			name = Release;
 		};
-		9066B749C30BE9C70BC05B2627EB6EE9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50F351EE2AE51B53497AA7FC14E5309C /* CongCongPod.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CongCongPod/CongCongPod-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CongCongPod/CongCongPod-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CongCongPod/CongCongPod.modulemap";
-				PRODUCT_MODULE_NAME = CongCongPod;
-				PRODUCT_NAME = CongCongPod;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		B0087CB4594321EF41619F3181FE120E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -590,7 +610,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -729,15 +750,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0BD62D534807DD50851002F686D01BFF /* Build configuration list for PBXNativeTarget "CongCongPod" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				34855221AEBB1B28110E6649B9461928 /* Debug */,
-				9066B749C30BE9C70BC05B2627EB6EE9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		3DBEFE42854E0634CF931C1BB03CC893 /* Build configuration list for PBXNativeTarget "Pods-CongCongPod_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -752,6 +764,15 @@
 			buildConfigurations = (
 				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
 				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87303214A8C10ADA463BE9497792BB2F /* Build configuration list for PBXNativeTarget "CongCongPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16A377726473446A4D1413F76E01EB38 /* Debug */,
+				023517C65663BDDF43F9E1F7C592D07C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
